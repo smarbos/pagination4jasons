@@ -1,0 +1,94 @@
+[
+    {
+      "name": "Pollera Lanilla",
+      "description": "Paula Cahen. Talle: S",
+      "discount": false,
+      "price": 110,
+      "rarity": 7,
+      "color": "#CCC",
+      "faces": 14,
+      "images": [
+        "img/demo.jpg"
+      ],
+      "reviews": [{
+        "stars": 5,
+        "body": "I love this gem!",
+        "author": "joe@example.org",
+        "createdOn": 1397490980837
+      }, {
+        "stars": 1,
+        "body": "This gem sucks.",
+        "author": "tim@example.org",
+        "createdOn": 1397490980837
+      }]
+    },
+    {
+      "name": "Pollera Lanilla",
+      "description": "Paula Cahen. Talle: S",
+      "discount": false,
+      "price": 110,
+      "rarity": 7,
+      "color": "#CCC",
+      "faces": 14,
+      "images": [
+        "img/demo.jpg"
+      ],
+      "reviews": [{
+        "stars": 5,
+        "body": "I love this gem!",
+        "author": "joe@example.org",
+        "createdOn": 1397490980837
+      }, {
+        "stars": 1,
+        "body": "This gem sucks.",
+        "author": "tim@example.org",
+        "createdOn": 1397490980837
+      }]
+    },
+    {
+      "name": "Pollera Lanilla",
+      "description": "Paula Cahen. Talle: S",
+      "discount": false,
+      "price": 110,
+      "rarity": 7,
+      "color": "#CCC",
+      "faces": 14,
+      "images": [
+        "img/demo.jpg"
+      ],
+      "reviews": [{
+        "stars": 5,
+        "body": "I love this gem!",
+        "author": "joe@example.org",
+        "createdOn": 1397490980837
+      }, {
+        "stars": 1,
+        "body": "This gem sucks.",
+        "author": "tim@example.org",
+        "createdOn": 1397490980837
+      }]
+    },
+    {
+      "name": "Pollera Lanilla",
+      "description": "Paula Cahen. Talle: S",
+      "discount": false,
+      "price": 110,
+      "rarity": 7,
+      "color": "#CCC",
+      "faces": 14,
+      "images": [
+        "img/demo.jpg"
+      ],
+      "reviews": [{
+        "stars": 5,
+        "body": "I love this gem!",
+        "author": "joe@example.org",
+        "createdOn": 1397490980837
+      }, {
+        "stars": 1,
+        "body": "This gem sucks.",
+        "author": "tim@example.org",
+        "createdOn": 1397490980837
+      }]
+    }
+  ]
