@@ -31,7 +31,7 @@
 	</head>
 	<body ng-controller="StoreController as store">
 		<?php
-require('includes/config.php');
+//require('includes/config.php');
 ?>
 		<div class="container-fluid" >
 			<a href="index.php"><h1 class="text-center">Triangulo Magico</h1><h3 class="text-center">Feria americana!</h3></a>
