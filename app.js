@@ -50,18 +50,19 @@
   }]);
 */
 
-  app.factory('Data', ['$http', function($http){
+  app.factory('Data', function($http, $q){
     var store = this;
+    var deferrer = $q.defer();
     store.products = [];
     $http.get('store-products.json').success(function(data){
-    store.products = data;
-    ndata = store.products.length;
-    console.log('Data = ' + ndata);  
-    return {message: ndata}
+    ndata = data.length;
+    console.log('Data = ' + ndata);
+    deferrer.resolve(ndata);
+    }
+  )
+  
+  return deferrer.promise; 
   });
-
-    
-  }]);
 
  function PaginationDemoCtrl($scope, Data){
   $scope.data = Data;
@@ -71,8 +72,10 @@
   angular.module('ui.bootstrap.demo', ['ui.bootstrap']);
   app.controller('PaginationDemoCtrl', function ($scope, Data) {
 
-  $scope.data = Data;
-  console.log('PaginationDemoCtrl = ' + $scope.data.message);
+  Data.then(function(data){
+    $scope.data = data;
+    console.log($scope.data);
+    });
   $scope.currentPage = 4;
 
   $scope.setPage = function (pageNo) {
